@@ -5,6 +5,7 @@
 ### Book 1
 - [CSS Selectors](/css-selectors)
 - [Semantic HTML](/semantic-html)
+- [Flexbox Intro](/flexbox-intro): in-class exercise
 
 ### Book 2
 
