@@ -6,6 +6,8 @@
 - [CSS Selectors](/css-selectors)
 - [Semantic HTML](/semantic-html)
 - [Flexbox Intro](/flexbox-intro): in-class exercise
+- [Flexbox Layout](/flexbox-layout)
+- [Daily Journal](/daily-journal)
 
 ### Book 2
 

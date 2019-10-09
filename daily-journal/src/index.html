@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daily Journal</title>
+	<link rel="stylesheet" type="text/css" href="styles/journal.css">
+</head>
+<body>
+	<header>
+		<h1>Daily Journal</h1>
+	</header>
+	<form>
+		<fieldset>
+			<label for="journalDate">Date</label>
+			<input type="date" name="journalDate">
+		</fieldset>
+		<fieldset>
+			<label for="concepts">Concepts</label>
+			<input type="text" name="concepts">
+		</fieldset>
+		<fieldset>
+			<label for="entry">Entry</label>
+			<textarea name="entry">Hello</textarea>
+		</fieldset>
+		<fieldset>
+			<label for="mood">Mood</label>
+			<select class="mood" name="mood">
+			    <option value="">How you feelin', booboo?</option>
+			    <option value="dope">Dope</option>
+			    <option value="chill">Chill</option>
+			    <option value="whelmed">Whelmed</option>
+			</select>
+		</fieldset>
+	</form>
+	<button>Submit</button>
+</body>
+</html>
