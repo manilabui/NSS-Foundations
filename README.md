@@ -5,11 +5,13 @@
 ### Book 1
 - [CSS Selectors](/css-selectors)
 - [Semantic HTML](/semantic-html)
-- [Flexbox Intro](/flexbox-intro): in-class exercise
+- [Flexbox Intro](/flexbox-intro): in-class
 - [Flexbox Layout](/flexbox-layout)
 - [Daily Journal](/daily-journal)
 
 ### Book 2
+- [Query Selector](/query-selector)
+- [JS Objects](/js-objects): in-class
 
 ### Book 3
 
