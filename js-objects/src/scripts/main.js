@@ -58,7 +58,12 @@ const empireStateBuilding = {
 console.log(empireStateBuilding.height, empireStateBuilding.eastWestLength);
 
 // Use square bracket notation to output the remaining 5 properties to the console. Create 5 variables first with the keys as their values. Use those variables to look up the values.
-console.log(empireStateBuilding["address"], empireStateBuilding["owner"]);
+const addressKey = "address";
+const ownerKey = "owner";
+// NOTE: The point of the exercise is to see that you have to use square bracket notation with variables.
+const address = empireStateBuilding[addressKey];
+const owner = empireStateBuilding[ownerKey];
+console.log(address, owner);
 
 // Examine the object below.
 const nashvilleSoftwareSchool = {
