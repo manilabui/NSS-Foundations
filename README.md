@@ -12,6 +12,7 @@
 ### Book 2
 - [Query Selector](/query-selector)
 - [JS Objects](/js-objects): in-class
+- [Github Data](/js-objects)
 
 ### Book 3
 
