@@ -15,7 +15,7 @@ const chickenMonkey = () => {
 	}
 };
 
-chickenMonkey();
+// chickenMonkey();
 
 
 // BATTLE OF THE BANDS
@@ -96,11 +96,11 @@ printSentence(sentence);
 
 
 // STACKING WORDS
-// NOTE: Named the function to have a more applicable name.
-const stackWords = sentence => {
-	// Create an array that contains the words in the sentence
-	const sentenceArr = sentence.split(' ');
+// Create an array that contains the words in the sentence
+const sentenceArr = sentence.split(' ');
 
+// NOTE: Named the function to have a more applicable name.
+const stackWords = arr => {
 	/*
 	    The addExcitement function should be an impure function, and accept
 	    the array as the sole argument. It should iterate over the array
@@ -110,26 +110,23 @@ const stackWords = sentence => {
     // Each time the for loop executes, you're going to add one more word to this string.
     let buildMeUp = "";
 
-    for (let i = 0; i < sentenceArr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         // Concatenate the new word onto buildMeUp
-        buildMeUp = `${buildMeUp} ${sentenceArr[i]}`;
+        buildMeUp = `${buildMeUp} ${arr[i]}`;
         // Print buildMeUp to the console
         console.log(buildMeUp);
     }
 };
 
 // Invoke the function and pass in the array
-stackWords(sentence);
-
+// stackWords(sentenceArr);
 
 // SOME WORDS ARE MORE EXCITING
 // NOTE: Named the function to have a more applicable name.
-const addExclamation = sentence => {
-	const sentenceArr = sentence.split(' ');
-
+const addExclamation = arr => {
 	let buildMeUp = "";
 
-    for (let i = 0; i < sentenceArr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         /*
             If the current word's place (not index) in the array
             is evenly divisible by 3, add an exclamation point
@@ -138,13 +135,39 @@ const addExclamation = sentence => {
 
             Otherwise, just concatenate the word itself.
          */
-        if ((i+1)%3 === 0) {
-
-        };
+        buildMeUp = `${buildMeUp} ${arr[i]}`;
+        if (!((i+1)%3)) buildMeUp = `${buildMeUp}!`;
 
         // Print buildMeUp to the console
         console.log(buildMeUp);
     }	
 };
 
-addExclamation();
+// addExclamation(sentenceArr);
+
+
+// FUNCTION ARGUMENTS
+// Add a new argument to the function so that a developer can specify which character should be displayed instead of it always being an exclamation point.
+
+// NOTE: Named the function to have a more applicable name.
+const addCustomMark = (arr, mark) => {
+	let buildMeUp = "";
+
+    for (let i = 0; i < arr.length; i++) {
+        /*
+            If the current word's place (not index) in the array
+            is evenly divisible by 3, add an exclamation point
+            to the end of the word and then concatenate it to
+            `buildMeUp`.
+
+            Otherwise, just concatenate the word itself.
+         */
+        buildMeUp = `${buildMeUp} ${arr[i]}`;
+        if (!((i+1)%3)) buildMeUp = `${buildMeUp}${mark}`;
+
+        // Print buildMeUp to the console
+        console.log(buildMeUp);
+    }	
+}
+
+// addCustomMark(sentenceArr, '?');
