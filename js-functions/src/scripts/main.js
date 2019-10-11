@@ -15,7 +15,7 @@ const chickenMonkey = () => {
 	}
 };
 
-// chickenMonkey();
+chickenMonkey();
 
 
 // BATTLE OF THE BANDS
@@ -119,7 +119,7 @@ const stackWords = arr => {
 };
 
 // Invoke the function and pass in the array
-// stackWords(sentenceArr);
+stackWords(sentenceArr);
 
 // SOME WORDS ARE MORE EXCITING
 // NOTE: Named the function to have a more applicable name.
@@ -143,7 +143,7 @@ const addExclamation = arr => {
     }	
 };
 
-// addExclamation(sentenceArr);
+addExclamation(sentenceArr);
 
 
 // FUNCTION ARGUMENTS
@@ -170,4 +170,4 @@ const addCustomMark = (arr, mark) => {
     }	
 }
 
-// addCustomMark(sentenceArr, '?');
+addCustomMark(sentenceArr, '?');
