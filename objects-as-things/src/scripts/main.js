@@ -80,6 +80,12 @@ const chickenComboMeal = {
 	drinkSize: 2
 };
 
+const placeOrder = () => {
+
+}
+
+function ()
+
 // Place an order
 restaurant.placeOrder(chickenComboMeal);
 
