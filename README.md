@@ -14,6 +14,7 @@
 - [Github Data](/js-objects)
 - [JS Functions](/js-functions)
 - [Objects as Things](/objects-as-things)
+- [Vanilla Components](/vanilla-components)
 
 ### Book 3
 
