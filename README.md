@@ -15,6 +15,8 @@
 - [JS Functions](/js-functions)
 - [Objects as Things](/objects-as-things)
 - [Vanilla Components](/vanilla-components)
+- [Food API](/food-api)
+- [JS Scope](/js-scope)
 
 ### Book 3
 
