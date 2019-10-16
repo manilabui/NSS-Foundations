@@ -1,11 +1,15 @@
 h1 {
 	padding-top: 50px;
+	padding: 10px;
+	margin: 5px;
 }
 
 fieldset {
     border: 0;
 }
 
+
+/* Mirror Exercise */
 .message-container {
 	padding: 10px;
 	margin: 5px;
@@ -30,9 +34,34 @@ fieldset {
 	border: solid red 1px;
 }
 
+
+/* Wonder Powers Exercise */
+.disabled {
+    background-color: gray;
+}
+
+.enabled {
+    background-color: fuchsia;
+    color: goldenrod;
+}
+
+.button-group {
+	padding: 10px;
+	margin: 5px;
+}
+
+#powerList {
+	padding-left: 10px;
+	margin: 5px;
+}
+
+
+/* Scrolling + Scaling Exercise */
 #box {
   display: flex;
   min-height: 1500px;
+  padding: 10px;
+  margin: 5px;
 }
 
 #audrey {
