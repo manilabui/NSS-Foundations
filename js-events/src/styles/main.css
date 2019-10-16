@@ -1,3 +1,16 @@
+h1 {
+	padding-top: 50px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.message-container {
+	padding: 10px;
+	margin: 5px;
+}
+
 .mirrors {
 	display: flex;
 	flex-direction: horizontal;
@@ -15,4 +28,19 @@
 	padding: 10px;
 	margin: 5px;
 	border: solid red 1px;
+}
+
+#box {
+  display: flex;
+  min-height: 1500px;
+}
+
+#audrey {
+  background-color: purple;
+  color: snow;
+  padding: 10px;
+  margin: 5px;
+  min-height: 100px;
+  min-width: 50px;
+  position: fixed;
 }
