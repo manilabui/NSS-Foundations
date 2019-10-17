@@ -1,20 +1,3 @@
-const entriesArr = [
-	{
-		id: 1,
-		date: '10/14/2019',
-		concept: 'JS Objects',
-		entry: `Whao. I am so amazing.`,
-		mood: `Dope`
-	},
-	{
-		id: 2,
-		date: '10/15/2019',
-		concept: 'JS Scope',
-		entry: `This is your time to shine, gurl.`,
-		mood: `Dope`
-	}
-];
-
 const journalEntry = {
 	date: "",
 	concept: "",
@@ -35,14 +18,16 @@ const makeJournalEntryComponent = entryObj => {
     `;
 };
 
+// Invoked when submit button is clicked
+const recordEntry = entry => entriesArr.push(journalEntry);
+
 const renderJournalEntries = entries => {
 	const entryLog = document.querySelector(`.entry-log`);
 
 	entries.forEach(entry => entryLog.innerHTML += makeJournalEntryComponent(entry));
 }
 
-// Invoke the render function
-renderJournalEntries(entriesArr);
+fetch('http://localhost:8088/entries') // Fetch from the API
+    .then(response => response.json())  // Parse as JSON
+    .then(entries => renderJournalEntries(entries));
 
-// Invoked when submit button is clicked
-const recordEntry = entry => entriesArr.push(journalEntry);
