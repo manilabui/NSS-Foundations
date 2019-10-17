@@ -2,8 +2,21 @@
 <html>
 <head>
 	<title>User Input</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
+	<form>
+		<fieldset>
+			<label for="thing">Favorite Thing</label>
+			<input id="favThing" type="text" name="thing">
+		</fieldset>
+		<fieldset>
+			<label for="location">Where to Buy</label>
+			<input id="location" type="text" name="location">
+		</fieldset>
+	</form>
+	<button>Save to Wishlist</button>
+	<article id="wishlist"></article>
 	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
