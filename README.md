@@ -17,6 +17,8 @@
 - [Vanilla Components](/vanilla-components)
 - [Food API](/food-api)
 - [JS Scope](/js-scope)
+- [JS Events](/js-events)
+- [User Input](/user-input)
 
 ### Book 3
 
