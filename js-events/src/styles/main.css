@@ -1,0 +1,75 @@
+h1 {
+	padding-top: 50px;
+	padding: 10px;
+	margin: 5px;
+}
+
+fieldset {
+    border: 0;
+}
+
+
+/* Mirror Exercise */
+.message-container {
+	padding: 10px;
+	margin: 5px;
+}
+
+.mirrors {
+	display: flex;
+	flex-direction: horizontal;
+}
+
+#mirror-left {
+	width: 50%;
+	padding: 10px;
+	margin: 5px;
+	border: solid lightblue 1px;
+}
+
+#mirror-right {
+	width: 50%;
+	padding: 10px;
+	margin: 5px;
+	border: solid red 1px;
+}
+
+
+/* Wonder Powers Exercise */
+.disabled {
+    background-color: gray;
+}
+
+.enabled {
+    background-color: fuchsia;
+    color: goldenrod;
+}
+
+.button-group {
+	padding: 10px;
+	margin: 5px;
+}
+
+#powerList {
+	padding-left: 10px;
+	margin: 5px;
+}
+
+
+/* Scrolling + Scaling Exercise */
+#box {
+  display: flex;
+  min-height: 1500px;
+  padding: 10px;
+  margin: 5px;
+}
+
+#audrey {
+  background-color: purple;
+  color: snow;
+  padding: 10px;
+  margin: 5px;
+  min-height: 100px;
+  min-width: 50px;
+  position: fixed;
+}
