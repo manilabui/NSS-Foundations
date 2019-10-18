@@ -23,19 +23,15 @@ document.addEventListener("scroll", () => {
 
 
 // Wonder Powers Activate!
-const flight = document.getElementById("flight");
-const mindreading = document.getElementById("mindreading");
-const xray = document.getElementById("xray");
 const allPowers = document.querySelectorAll(".power");
 
-const flightHandler = () => flight.className = "power enabled";
-const mindreadingHandler = () => mindreading.className = "power enabled";
-const xrayHandler = () => xray.className = "power enabled";
 const activateAllHandler = () => allPowers.forEach(power => power.className = "power enabled");
 const deactivateAllHandler = () => allPowers.forEach(power => power.className = "power disabled");
 
-document.querySelector("#activate-flight").addEventListener("click", flightHandler);
-document.querySelector("#activate-mindreading").addEventListener("click", mindreadingHandler);
-document.querySelector("#activate-xray").addEventListener("click", xrayHandler);
 document.querySelector("#activate-all").addEventListener("click", activateAllHandler);
 document.querySelector("#deactivate-all").addEventListener("click", deactivateAllHandler);
+allPowers.forEach(powerSection => {
+	const currButton = document.querySelector(`#activate-${powerSection.id}`);
+
+	currButton.addEventListener("click", () => powerSection.className = "power enabled");
+});
