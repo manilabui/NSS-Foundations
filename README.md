@@ -22,6 +22,8 @@
 - [National Parks](/national-parks)
 
 ### Book 3
+- [Array Methods](/array-methods): in-class
+- [Solar System](/solar-system)
 
 ### Book 4
 
