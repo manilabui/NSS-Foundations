@@ -1,0 +1,16 @@
+#box {
+  display: flex;
+  min-height: 1500px;
+  padding: 10px;
+  margin: 5px;
+}
+
+#audrey {
+  background-color: purple;
+  color: snow;
+  padding: 10px;
+  margin: 5px;
+  min-height: 100px;
+  min-width: 50px;
+  position: fixed;
+}s

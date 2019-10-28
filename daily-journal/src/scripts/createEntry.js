@@ -9,7 +9,7 @@ const makeJournalEntryComponent = entryObj => {
     const { date, concept, entry, mood, id } = entryObj;
 
     return `
-    	<section class=${id}>
+    	<section id=${id}>
 	    	<h2>${concept}</h2>
 	    	<h5>${date}</h5>
 	    	<h5>${mood}</h5>

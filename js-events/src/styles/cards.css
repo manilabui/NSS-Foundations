@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	margin: 10px;
+}
+
+.card-button {
+	margin-top: 5px;
+}
+
+.create {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.card {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+}
