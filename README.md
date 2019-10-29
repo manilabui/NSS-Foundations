@@ -21,14 +21,5 @@
 - [User Input](/user-input)
 - [National Parks](/national-parks)
 
-### Book 3
-- [Array Methods](/array-methods): in-class
-- [Solar System](/solar-system)
-
-### Book 4
-
-### Daily Journal
-- [My Journal](/daily-journal)
-
 ## References
 - [NSS Client Side Mastery](https://github.com/nashville-software-school/client-side-mastery)
